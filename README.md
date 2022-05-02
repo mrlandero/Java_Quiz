@@ -106,4 +106,4 @@ scan.close();
 
 ## Step 8: 
 
-Test the application compiling and running the program and answer the questions. 
+Test the application by compiling and running the program and answer the questions. 
