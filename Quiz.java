@@ -52,3 +52,8 @@ public class Quiz {
         } else {
             System.out.println("Better luck next time!");
         }
+
+        scan.close();
+
+    }
+}
