@@ -24,3 +24,20 @@ public class Quiz {
         System.out.println("\ta) Ron Weasley\n\tb) Hermione Granger\n\tc) Draco Malfoy\n");
         //store answer 4
         String answer4 = scan.nextLine();
+
+        int score = 0;
+
+
+        //Task 2: Check each answer - For each correct answer, add 5 points to the score. 
+        if (answer1.equals("c")) {
+            score += 5;
+        }
+        if (answer2.equals("a")) {
+            score += 5;
+        }
+        if (answer3.equals("d")) {
+            score += 5;
+        }
+        if (answer4.equals("a") || answer4.equals("b")) {
+            score += 5;
+        } 
