@@ -95,3 +95,11 @@ Print the user's score. Write if-statements to display to the user how they perf
             System.out.println("Better luck next time!");
         }
 ```
+
+## Step 7:
+
+Close the **Scanner** instance to avoid any data leaks:
+
+```java
+scan.close();
+```
