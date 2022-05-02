@@ -41,3 +41,14 @@ public class Quiz {
         if (answer4.equals("a") || answer4.equals("b")) {
             score += 5;
         } 
+
+        System.out.println("Your final score is: " + score + "/20");
+
+        //Task 3: print a message depending on the score
+        if (score > 15) {
+            System.out.println("Wow! You know your stuff");
+        } else if (score >= 5 && score <= 15) {
+            System.out.println("Not bad!");
+        } else {
+            System.out.println("Better luck next time!");
+        }
