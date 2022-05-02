@@ -55,3 +55,26 @@ Ask the 4 questions for the quiz. Do this after the new **Scanner** instance:
         //store answer 4
         String answer4 = scan.nextLine();
 ```
+
+## Step 5:
+
+Initialize a score variable to 0. Then add 5 points to the user's score for every question they answer correctly. We achieve this with some if-statements:
+
+```java
+        int score = 0;
+
+
+        //Task 2: Check each answer - For each correct answer, add 5 points to the score. 
+        if (answer1.equals("c")) {
+            score += 5;
+        }
+        if (answer2.equals("a")) {
+            score += 5;
+        }
+        if (answer3.equals("d")) {
+            score += 5;
+        }
+        if (answer4.equals("a") || answer4.equals("b")) {
+            score += 5;
+        } 
+```
