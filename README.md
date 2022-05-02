@@ -78,3 +78,20 @@ Initialize a score variable to 0. Then add 5 points to the user's score for ever
             score += 5;
         } 
 ```
+
+## Step 6: 
+
+Print the user's score. Write if-statements to display to the user how they performed on the quiz:
+
+```java
+        System.out.println("Your final score is: " + score + "/20");
+
+        //Task 3: print a message depending on the score
+        if (score > 15) {
+            System.out.println("Wow! You know your stuff");
+        } else if (score >= 5 && score <= 15) {
+            System.out.println("Not bad!");
+        } else {
+            System.out.println("Better luck next time!");
+        }
+```
