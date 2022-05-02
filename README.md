@@ -9,3 +9,15 @@ Import the Scanner utility:
 import java.util.Scanner;
 ```
 
+## Step 2:
+
+Create the Quiz class:
+
+```java
+public class Quiz {
+    public static void main(String[] args) {
+
+    }
+
+}
+```
