@@ -103,3 +103,7 @@ Close the **Scanner** instance to avoid any data leaks:
 ```java
 scan.close();
 ```
+
+## Step 8: 
+
+Test the application compiling and running the program and answer the questions. 
