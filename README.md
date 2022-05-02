@@ -21,3 +21,11 @@ public class Quiz {
 
 }
 ```
+
+## Step 3:
+
+Inside the Quiz class, initialize a new **Scanner** instance: 
+
+```java
+Scanner scan = new Scanner(System.in);
+```
